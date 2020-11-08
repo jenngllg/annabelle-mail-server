@@ -1,0 +1,32 @@
+{
+  "name": "annabelle-mail-server",
+  "version": "1.0.0",
+  "description": "Server mail for Anna'belle Institut",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifergullung/annabelle-mail-server.git"
+  },
+  "keywords": [
+    "server",
+    "mail"
+  ],
+  "author": "Jennifer GULLUNG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennifergullung/annabelle-mail-server/issues"
+  },
+  "homepage": "https://github.com/jennifergullung/annabelle-mail-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.15"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
